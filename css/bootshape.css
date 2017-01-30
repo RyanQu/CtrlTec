@@ -1,0 +1,227 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.grey-bg {
+  background: #f6f6f6;
+}
+.blue {
+  color: #549bdf;
+}
+.brand {
+  font-family: '微软雅黑', cursive;
+  color: #fff;
+  font-weight:100;
+}
+.sub-brand {
+  font-family: 'Tahoma', cursive;
+  color: #fff;
+}
+.title {
+  font-family: '微软雅黑';
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+.strong {
+  font-weight: 500;
+}
+.thin {
+  font-weight: 100;
+}
+.extra-large-text {
+  font-size: 40px;
+}
+.large-text {
+  font-size: 30px;
+}
+.medium-text {
+  font-size: 25px;
+}
+.margin-holder {
+  margin: 40px 0;
+}
+.legend {
+  margin: 40px 0;
+   font-family: '微软雅黑';
+  padding: 0 10%;
+  
+}
+.push-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.bs-docs-nav {
+  margin-bottom: 0;
+  background-color: #393939;
+  border-bottom: 0;
+}
+.bs-home-nav .bs-nav-b {
+  display: none;
+}
+.bs-docs-nav .navbar-brand,
+.bs-docs-nav .navbar-nav > li > a {
+  color: #aaa;
+  font-weight: 500;
+}
+.bs-docs-nav .navbar-nav > li > a:hover{
+  color: #fff;
+  background-color: #393939;
+}
+.bs-docs-nav .navbar-nav > .active > a,
+.bs-docs-nav .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: #555;
+}
+.bs-docs-nav .navbar-toggle .icon-bar {
+  background-color: #aaa;
+}
+.bs-docs-nav .navbar-header .navbar-toggle {
+  border-color: #fff;
+}
+.bs-docs-nav .navbar-header .navbar-toggle:hover,
+.bs-docs-nav .navbar-header .navbar-toggle:focus {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* Featured sites */
+.bs-docs-featured-sites {
+  margin-left: -1px;
+  margin-right: -1px;
+}
+.bs-docs-featured-sites .col-sm-3 {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+@media (min-width: 480px) {
+  .bs-docs-featurette .img-responsive {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .bs-docs-featurette {
+    padding-top:    100px;
+    padding-bottom: 100px;
+  }
+  .bs-docs-featurette-title {
+    font-size: 40px;
+  }
+  .bs-docs-featurette .lead {
+    margin-left:  auto;
+    margin-right: auto;
+    max-width: 80%;
+  }
+  .bs-docs-featured-sites .col-sm-3:first-child img {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .bs-docs-featured-sites .col-sm-3:last-child img {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .bs-docs-featurette .img-responsive {
+    margin-top: 0;
+  }
+}
+
+section {
+  padding: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+.promo {
+  background: url('../img/1.jpg') no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 40px 0 0 0;
+  color: #ececec;
+}
+.promo .brand-holder {
+  display: inline-block;
+}
+.promo .brand-holder h1 {
+  font-size: 3.8em;
+  margin-bottom: 0;
+}
+.promo .brand-holder span {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.promo .btn {
+  border: 2px solid #ffffff;
+}
+.thumbnail {
+  border:5px;
+}
+.thumbnail .thumb-icon {
+  font-size: 8em;
+  color: #549bdf;
+  max-height: 160px;
+}
+.thumbnail div.thumb-caption {
+  padding: 0 40px;
+}
+.fa {
+  transition: -webkit-transform 0.2s ease;
+}
+.features .feature-description {
+  padding: 0 40px;
+}
+.features .feature-icon {
+  position: relative;
+  padding: 0px 0 20px 0;
+}
+.features .feature-icon .fa {
+  position: absolute;
+  font-size: 60px;
+  top: 20px;
+  left: -80px;
+}
+.features .feature-picture {
+  padding: 0 40px;
+}
+.features .feature-item {
+  margin: 60px 0 30px 0;
+}
+.features .feature-item h3 {
+  color: #549bdf;
+  font-weight: 300;
+}
+.footer-icons li > a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+.footer-icons .fb {
+  background-image: url('../img/social_facebook.png');
+}
+.footer-icons .tw {
+  background-image: url('../img/social_twitter.png');
+}
+.footer-icons .you {
+  background-image: url('../img/social_youtube.png');
+}
+.footer-icons .g-plus {
+  background-image: url('../img/social_googleplus.png');
+}
+.footer-icons .feed {
+  background-image: url('../img/social_rss.png');
+}
+.footer-icons .lkd {
+  background-image: url('../img/social_linkedin.png');
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #418ce1;
+  border-color: #277dcf;
+}
